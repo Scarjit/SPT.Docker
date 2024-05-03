@@ -28,7 +28,7 @@ This fork simply removes the SIT(stayintarkov) requirements to make a generic SP
    ```
    Same, but in one line:
    ```bash
-   docker build --no-cache --build-arg SPT=3951e29a340e917d158ec061ee671c4ae0f9c8ec --label SPTAki -t sptaki .
+   docker build --no-cache --build-arg SPT=2dd4d914382657378d9cdec173039d771fe33220 --label SPTAki -t sptaki .
    ```
    
    > Windows dont handle the \\, use the oneliner!
