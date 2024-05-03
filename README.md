@@ -18,11 +18,11 @@ This fork simply removes the SIT(stayintarkov) requirements to make a generic SP
 3. `cd SPT.Docker`
 4. Build the server 
 	
-   Equivalent to release SPT-Aki-3.8.0-3951e2 (0.14.1.2.29197):
+   Equivalent to release SPT-Aki-3.8.0-3951e2 (0.14.1.3.29351):
    ```bash
    docker build \
       --no-cache \
-      --build-arg SPT=3951e29a340e917d158ec061ee671c4ae0f9c8ec \
+      --build-arg SPT=2dd4d914382657378d9cdec173039d771fe33220 \
       --label SPTAki \
       -t sptaki .
    ```
